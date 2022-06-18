@@ -1,0 +1,155 @@
+body {
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ background-color: #222629;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  overflow-x:auto;
+}
+
+.small{
+  display: none;
+}
+
+.heading{
+  color: #86c232;
+  font-size: 25px;
+}
+
+#obsah { 
+    font-family: 'TimesNewRoman';
+    font-size: 15px;
+    line-height: 1.4em;
+    height: 20px;
+    text-align: center;
+    }
+
+#obsah p{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.kviz p{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.odsadenie{
+  margin-bottom: 50px;
+}
+ 
+.btn-div a {
+    background-color: #86c232;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.login-form p{
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+.btn{
+  background-color: #86c232;
+  color: white;
+  padding: 15px 57px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+}
+
+.login-form input[type=text], input[type=password], input[type=email]{
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.top-margin{
+  margin-top: 30px;
+}
+
+.login-from input[type=password]{
+  margin-bottom: 30px;
+}
+
+.login-form input[type=submit]{
+  background-color: #86c232;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+}
+
+.reg-form p{
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+.reg-form input[type=text], input[type=password], input[type=email]{
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.reg-from input[type=password]{
+  margin-bottom: 30px;
+}
+
+.reg-form input[type=submit]{
+  background-color: #86c232;
+  color: white;
+  padding: 15px 33px;
+  text-align: center;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #fff;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+@media only screen and (max-width: 800px) {
+  .small{
+    display: inline;
+  }
+
+  .big{
+    display: none;
+  }
+}
